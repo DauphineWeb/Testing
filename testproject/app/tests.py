@@ -7,5 +7,5 @@ class TestPainting(TestCase):
         Painting.objects.create(title='Mona Lisa', artist='Leonardo DaVinci', creation_year=1503)
 
     def test_1(self):
-        self.assertEqual(Painting.objects.count(), 1)
+        self.assertEqual(Painting.objects.count(), 0)
 
